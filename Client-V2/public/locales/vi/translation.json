@@ -1,0 +1,441 @@
+﻿{
+  "web_site": "Phần mềm quản lý Bất Động Sản",
+  "title": {
+    "source": "Nguồn Hàng",
+    "urbanArea": "Khu Đô Thị ",
+    "project": "Dự Án ",
+    "building": "Tòa Nhà ",
+    "apartment": "Bất động sản ",
+    "owner":"Chủ sở hữu",
+    "stateType":"Loại bất động sản"
+  },
+  "directory": {
+    "source": "Nguồn Hàng",
+    "urbanArea": "Khu Đô Thị ",
+    "project": "Dự Án ",
+    "building": "Tòa Nhà ",
+    "apartment": "Căn hộ ",
+    "ownertype":"Loại chủ sở hữu",
+    "real_state":"Danh sách BĐS",
+    "stateType":"Loại bất động sản",
+    "agency":"Đại lý BĐS",
+    "RequirementType":"Loại nhu cầu",
+    "agent":"Người đăng tin"
+  },
+  "AdministrativeUnit":{
+    "title":"Đơn vị hành chính",
+    "name":"Tên đơn vị",
+    "code":"Mã đơn vị",
+    "warning_parent":"Không thể chọn đơn vị này làm đơn vị cha",
+    "level":"Cấp độ"
+  },
+  "building": {
+    "numberOfFloors": "Số Tầng",
+    "warning-delete":"Tòa nhà đã được sử dụng",
+    "use_all":"Tòa nhà sở đều đã sử dụng",
+    "deleted_unused":"Đã xoá tòa nhà chưa sử dụng"
+  },
+  "apartment": {
+    "adminUnit":"Khu vực",
+    "adminUnit_child":"Quận huyện",
+    "advanced_search":"Tìm kiếm nâng cao",
+    "name":"Tên bất động sản",
+    "code": "Mã căn",
+    "owner": "Chủ sở hữu",
+    "source": "Nguồn hàng",
+    "description": "Mô tả",
+    "note": "Ghi chú",
+    "numberOfApartments": "Số lượng căn hộ",
+    "needDescription": "Nhu cầu",
+    "furniture": "Nội thất",
+    "price": "Giá",
+    "numberOfBedRoom": "Số lượng phòng ngủ",
+    "availableDate": "Ngày trống",
+    "lastCheckingDate": "Ngày kiểm tra cuối",
+    "acreage": "Diện tích",
+    "showAll": "Hiển thị toàn bộ",
+    "select":"Chọn chủ sở hữu",
+    "add":"Thêm mới chủ sở hữu",
+    "update":"Cập nhật chủ sở hữu",
+    "owner_information":"Thông tin chủ sở hữu",
+    "real_state_information":"Thông tin bất động sản",
+    "floorsCode":"Mã tầng",
+    "numberOfToilet":"Số lượng nhà vệ sinh",
+    "doorDirection":"Hướng cửa",
+    "balconyDirection":"Hướng ban công"
+  },
+  "RealEstateOwner":{
+    "firstName":"Họ đệm",
+    "lastName":"Tên",
+    "displayName":"Họ và tên",
+    "code":"Mã",
+    "fullAddress":"Địa chỉ",
+    "phoneName":"Số điện thoại",
+    "noteOwner":"Ghi chú",
+    "phoneNumber":"SĐT chủ sở hữu"
+  },
+  "Dashboard": {
+    "dashboard": "Trang chủ",
+    "AdministrativeUnit": "Đơn vị hành chính",
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất",
+    "profile": "Thông tin tài khoản",
+    "directory": "Danh mục BĐS",
+    "asset": "Tài sản",
+    "assetManagement": "Quản lý tài sản",
+    "materialManagement": "Quản lý vật tư",
+    "count_of_allocations": "Lượt cấp phát",
+    "count_of_transfer": "Lượt điều chuyển",
+    "asset_broken": "Tài sản hỏng",
+    "category": "Danh mục",
+    "manage": "Quản lý",
+    "purchase": "Quản lý mua sắm",
+    "assetStatusTest": "Trạng thái tài sản demo",
+    "subcategory": {
+      "product": "Danh sách sản phẩm",
+      "productType": "Loại sản phẩm",
+      "productCategory": "Danh mục sản phẩm",
+      "productAttribute": "Thuộc tính sản phẩm",
+      "assetGroup": "Nhóm tài sản",
+      "assetSource": "Nguồn gốc tài sản",
+      "department": "Danh sách phòng ban",
+      "administrativeUnit": "Đơn vị hành chính",
+      "commonObjectType": "Nhóm tham số dùng chung",
+      "commonObject": "Tham số dùng chung",
+      "supplier": "Nhà cung cấp",
+      "contract": "Hợp đồng",
+      "stockKeepingUnit": "Đơn vị tính",
+      "assetType": "Loại tài sản",
+      "assetStatus": "Trạng thái tài sản",
+      "productAttributeValue": "Giá trị thuộc tính sản phẩm",
+      "productTemplate": "Mẫu sản phẩm",
+      "maintainRequestStatus": "Trạng thái Sửa Chữa",
+      "staff": "Nhân viên",
+      "store": "Kho"
+    },
+    "summary_report": {
+      "title": "Báo cáo tổng hợp",
+      "aggregate_assets_by_asset_group": "Tổng hợp theo nhóm tài sản",
+      "amount_of_assets_grouped_by_asset_group": "BC tài sản theo nhóm",
+      "amount_of_assets_grouped_by_product_category": "BC tài sản theo DMSP",
+      "amount_of_assets_grouped_by_department": "BC tài sản theo phòng ban",
+      "report_increase_or_decrease_assets": "BC tăng giảm tài sản"
+    },
+    "Purchase": {
+      "purchase_supplies": "Mua sắm vật tư",
+      "purchase_asset": "Mua sắm tài sản",
+      "purchaseRequest": "Yêu cầu mua sắm",
+      "purchasePlaning": "Kế hoạch mua sắm",
+      "ReceivingAsset": "Tiếp nhận tài sản",
+      "purchaseRequestStauts": "Trạng thái yêu cầu mua sắm",
+      "purchase_request_count": "Tổng hợp yêu cầu mua sắm",
+      "suppliesPurchaseRequest": "Yêu cầu mua sắm ",
+      "supplies_purchase_request_count": "Tổng hợp yêu cầu mua sắm",
+      "suppliespurchasePlaning": "Kế hoạch mua sắm",
+      "noti": {
+        "warning_planing": "Kế hoạch đã được phê duyệt"
+      }
+    }
+  },
+  "general": {
+    "note": "Ghi chú",
+    "enterKeyword": "Nhập từ khóa",
+    "noti": "Thông báo",
+    "print": "In Phiếu",
+    "exportToExcel": "Xuất Excel",
+    "importExcel": "Nhập Excel",
+    "select": "Chọn",
+    "select_asset": "Chọn tài sản",
+    "saveUpdate": "Thêm mới/Cập nhật",
+    "update": "Cập nhật",
+    "cancel": "Hủy",
+    "search": "Tìm kiếm",
+    "search_tree_department": "Tìm kiếm phòng ban",
+    "save": "Lưu",
+    "viewDocument": "Xem tài liệu",
+    "downloadDocument": "Tải xuống",
+    "removeDocument": "Xoá tài liệu",
+    "viewDetail": "Xem chi tiết",
+    "add": "Thêm mới",
+    "details": "Thông tin chi tiết",
+    "deleteAllConfirm": "Bạn có chắc chắn xóa toàn bộ?",
+    "deleteConfirm": "Bạn có chắc chắn xóa?",
+    "enterSearch": "Nhập từ khóa tìm kiếm",
+    "confirm": "Xác nhận",
+    "deleteSelectConfirm": "Bạn có chắc chắn xóa những bản ghi đã chọn?",
+    "agree": "Đồng ý",
+    "pleaseSelect": "Vui lòng chọn",
+    "deleteQuestion": "Bạn có chắc chắn muốn xóa?",
+    "list": "Danh sách",
+    "code": "Mã",
+    "name": "Tên",
+    "description": "Mô tả",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "editIcon": "Sửa bản ghi",
+    "viewIcon": "Xem",
+    "deleteIcon": "Xóa bản ghi",
+    "action": "Thao tác",
+    "cancel_asset_allocation": "Bạn có chắc chắc muốn xóa phiếu cấp phát này?",
+    "no_edit_permission": "Bạn không có quyền sửa",
+    "filterStatus": "Lọc theo trạng thái",
+    "filterAssetGroup": "Lọc theo nhóm tài sản",
+    "error": "Có lỗi xảy ra, vui lòng thử lại.",
+    "error_reload_page": "Có lỗi xảy ra, vui lòng tải lại trang.",
+    "email": "Email",
+    "language": "Ngôn ngữ",
+    "index": "STT",
+    "emptyDataMessageTable": "Không có bản ghi nào",
+    "rows_per_page": "Số hàng mỗi trang:",
+    "or": "hoặc",
+    "caculator": "Tính",
+    "close": "Đóng",
+    "stt": "STT",
+    "filterYear": "Chọn năm",
+    "upload": "Tải lên",
+    "remove": "Xoá",
+    "select_file": "Chọn tệp",
+    "size": "Kích thước",
+    "file_name": "Tên tệp",
+    "empty_file": "Trống",
+    "noti_check_data": "Chưa chọn dữ liệu",
+    "all": "Toàn bộ",
+    "filterStore": "Lọc theo kho",
+    "required": "Trường này là bắt buộc",
+    "success": "Thành công",
+    "type_not_accepted": "File không đúng định dạng",
+    "filterDerpartment": "Lọc theo phòng ban",
+    "historyIcon": "Xem lịch sử",
+    "of": "trong",
+    "selects": "Đã chọn {0} hàng",
+    "download": "Tải về",
+    "view": "Xem",
+    "add_asset": "Thêm tài sản",
+    "warrantyMonthError": "Tháng bảo hành không hợp lệ",
+    "yearPutIntoUseError": "Năm đưa vào sử dụng không hợp lệ",
+    "add": "Thêm",
+    "confirmCalculator": "Bạn có chắc chắn muốn lưu?",
+    "add_file": "Thêm tài liệu",
+    "allProduct": "Tất cả sản phẩm",
+    "invalidDateFormat": "Định dạng ngày tháng không hợp lệ",
+    "addNew":"Thêm mới",
+    "deleteItemSuccess":"Xóa thành công",
+    "addSuccess":"Thêm thành công",
+    "updateSuccess":"Cập nhật thành công",
+    "dupli_code":"Mã đã được sử dụng",
+    "deleteSuccess":"Xóa thành công",
+    "status":"Trạng thái"
+  },
+  "toastr": {
+    "error": "Có lỗi xảy ra, vui lòng thử lại."
+  },
+  "component": {
+    "product": {
+      "title": "Chọn sản phẩm"
+    },
+    "department": {
+      "title": "Chọn phòng ban",
+      "text": "Phòng ban"
+    },
+    "asset": {
+      "title": "Chọn tài sản",
+      "code": "Mã tài sản",
+      "name": "Tên tài sản"
+    },
+    "assetGroup": {
+      "title": "Chọn nhóm tài sản",
+      "name": "Nhóm tài sản"
+    },
+    "Supply": {
+      "title": "Chọn nhà cung cấp",
+      "code": "Mã nhà cung cấp",
+      "name": "Tên nhà cung cấp"
+    },
+    "supply": {
+      "name": "Tên nhà cung cấp"
+    }
+  },
+  
+  "Department": {
+    "title": "Phòng ban",
+    "name": "Tên phòng ban",
+    "code": "Mã phòng ban",
+    "type": "Kiểu phòng ban",
+    "parent": "Thuộc phòng ban cha",
+    "isAssetManagement": "Là phòng ban quản lý tài sản",
+    "saveUpdate": "Thêm mới/Cập nhật phòng ban",
+    "dialog": {
+      "title": "Cập nhật vòng ngoại kiểm"
+    },
+    "filter": "Tìm kiếm theo mã và tên phòng ban",
+    "noti": {
+      "use": "Phòng ban đang sử dụng, không thể xóa",
+      "use_all": "Phòng ban đều đã sử dụng",
+      "deleted_unused": "Đã xoá phòng ban chưa sử dụng",
+      "dupli_code": "Mã đã được sử dụng",
+      "updateFailParent": "Không thể chọn phòng ban này làm phòng ban cha"
+    }
+  },
+
+
+  "Add": "Thêm mới",
+  "Details": "Thông tin chi tiết",
+  "DeleteAllConfirm": "Bạn có chắc chắn xóa toàn bộ?",
+  "DeleteConfirm": "Bạn có chắc chắn xóa",
+  "EnterSearch": "Nhập từ khóa tìm kiếm",
+  "confirm": "Xác nhận",
+  "PleaseSelect": "Vui lòng chọn",
+  "deleteQuestion": "Bạn có chắc chắn muốn xóa",
+  "approveQuestion": "Bạn có chắc chắn muốn phê duyệt các lịch đã chọn?",
+  "publishQuestion": "Bạn có chắc chắn muốn xuất bản các lịch đã chọn?",
+  "Print": "Tiến hành In",
+  "Yes": "Có",
+  "No": "Không",
+  "or": "hoặc",
+  "good": "Tốt",
+  "not good": "Không tốt",
+  "username": "Tài khoản",
+  "password": "Mật khẩu",
+  "re_password": "Nhập lại mật khẩu",
+  "forgot_password": "Quên mật khẩu?",
+  "landing_page": {
+    "noti": "Thông báo: ",
+    "no_eqaRound": "Hiện tại không có vòng ngoại kiểm nào.",
+    "eqaPlanning": "Kế hoạch ngoại kiểm: ",
+    "startDate": "Thời gian bắt đầu: ",
+    "endDate": "Thời gian kết thúc: "
+  },
+  "sign_in": {
+    "title": "Đăng nhập"
+  },
+  "sign_up": {
+    "title": "Đăng ký",
+    "title_form": "Đăng ký tài khoản",
+    "info_login": "Thông tin đăng nhập"
+  },
+  "Download": "Tải về",
+  "button": {
+    "add": "Thêm mới"
+  },
+  "description": {
+    "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
+    "part2": "Switch language between english and german using buttons above.",
+    "part3": "English path."
+  },
+  "user": {
+    "title": "Tài khoản",
+    "userList": "Danh sách tài khoản người dùng",
+    "displayName": "Họ và tên",
+    "firstName": "Họ đệm",
+    "lastName": "Tên",
+    "gender": "Giới tính",
+    "username": "Tên đăng nhập",
+    "changePass": "Đổi mật khẩu",
+    "active": "Kích hoạt",
+    "role": "Vai trò",
+    "department": "Thuộc phòng ban",
+    "please_select_permission": "Vui lòng chọn ít nhất 1 quyền",
+    "email": "Email",
+    "isMainDepartment": "Phòng ban chính",
+    "search": "Tìm kiếm theo tên hoặc phòng ban",
+    "current_password": "Mật khẩu hiện tại",
+    "pass": "Mật khẩu",
+    "re_pass": "Nhập lại mật khẩu",
+    "confirm_password": "Xác nhận mật khẩu",
+    "filter": "Tìm kiếm theo tên đăng nhập, email và họ tên người dùng",
+    "person_info": "Thông tin người dùng",
+    "saveUpdate": "Thêm mới/Cập nhật người sử dụng"
+  },
+  "role": {
+    "title": "Vai trò",
+    "name": "Tên",
+    "authority": "Quyền",
+    "createdBy": "Người tạo"
+  },
+  "manage": {
+    "profile_is_logged": "Quản lý Profile đang đăng nhập",
+    "user": "Quản lý người dùng",
+    "menu": "Quản lý Menu",
+    "isMainDepartment": "Chọn phòng ban chính",
+    "department": "Phòng ban",
+    "departmentList": "Danh sách phòng ban"
+  },
+
+
+
+  "menu": {
+    "title": "Quản lý Menu",
+    "description": "Mô tả",
+    "code": "Mã menu",
+    "name": "Tên menu",
+    "icon": "Biểu tượng",
+    "key": "Tên menu",
+    "path": "Đường dẫn",
+    "parent": "Menu cha"
+  },
+
+"adminUnit":{
+  "title":"Đơn vị hành chính",
+  "name":"Tên đơn vị",
+  "code":"Mã đơn vị",
+  "status":"Trạng thái"
+},
+"source":{
+  "warning-delete":"Nguồn hàng đã được sử dụng",
+  "use_all":"Nguồn hàng đều đã sử dụng",
+  "deleted_unused":"Đã xoá nguồn hàng chưa sử dụng"
+},
+"urbanArea":{
+  "warning-delete":"Khu đô thị đã được sử dụng",
+  "use_all":"Khu đô thị đều đã sử dụng",
+  "deleted_unused":"Đã xoá khu đô thị chưa sử dụng"
+},
+"project":{
+  "warning-delete":"Dự án đã được sử dụng",
+  "use_all":"Dự án đều đã sử dụng",
+  "deleted_unused":"Đã xoá dự án chưa sử dụng"
+},
+"ownerType":{
+  "warning-delete":"Loại chủ sở hữu đã được sử dụng",
+  "use_all":"Loại chủ sở hữu đều đã sử dụng",
+  "deleted_unused":"Đã xoá loại chủ hữu sở chưa sử dụng"
+},
+"file":{
+  "name":"Tên file",
+  "addFile":"Chọn file"
+},
+"stateType":{
+  "warning-delete":"Loại bất động sản đã được sử dụng",
+  "use_all":"Loại bất động sản đều đã sử dụng",
+  "deleted_unused":"Đã xoá loại bất động sản chưa sử dụng",
+  "warning_parent":"Loại bất động sản này không thể sử dụng làm cha"
+},
+"agency":{
+  "warning-delete":"Đại lý đã được sử dụng",
+  "use_all":"Đại lý  đều đã sử dụng",
+  "deleted_unused":"Đã xoá Đại lý chưa sử dụng"
+},
+"RequirementType":{
+  "warning-delete":"Loại yêu cầu đã được sử dụng",
+  "use_all":"Loại yêu cầu  đều đã sử dụng",
+  "deleted_unused":"Đã xoá Loại yêu cầu chưa sử dụng"
+},
+"filter":{
+  "open":"Mở bộ lọc",
+  "close":"Đóng bộ lọc",
+  "realStateName":"Lọc theo tên căn hộ",
+  "ownerName":"Lọc theo tên chủ sở hữu",
+  "phoneNumber":"Lọc theo SĐT",
+  "project":"Lọc theo dự án",
+  "building":"Lọc theo tòa nhà",
+  "floorsCode":"Lọc theo mã tầng",
+  "realStateCode":"Lọc theo mã căn hộ",
+  "numberOfBedRoom":"Số lượng phòng ngủ",
+  "numberOfToilet":"Số lượng nhà vệ sinh",
+  "doorDirection":"Lọc theo hướng cửa",
+  "balconyDirection":"Lọc theo hướng ban công",
+  "status":"Lọc theo trạng thái",
+  "price":"Lọc theo giá",
+  "furniture":"Lọc theo đồ nội thất"
+}
+}
